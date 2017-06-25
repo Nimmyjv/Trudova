@@ -86,10 +86,7 @@
         font-weight: 600;
         text-align: center; 
         padding-top: 84px;
-        .real-time{
-          padding-top: 50px;
-
-        }
+        
       }
     }
 
@@ -154,7 +151,22 @@ font-size: 20px;
 
 
 
+  @media only screen and (min-width: 768px){
+.content2{
+ .text2{
+  .real-time{
+  padding-top: 50px;
+  }
+ }
+}
+}
 
+@media only screen and (max-width:992px){
+.content2{
+  height: 600px;
+
+}
+}
 
   @media only screen and (min-width: 1195px){
    .Rectangle-18 {
@@ -200,6 +212,11 @@ font-size: 20px;
  }
  .text2{
   font-size: 12px;
+  padding-top: 30px;
+ }
+ .real-time{
+ padding-top: 10px;
+ padding-bottom: 30px;
  }
 }
 }
