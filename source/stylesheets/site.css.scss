@@ -170,14 +170,20 @@ font-size: 20px;
    }
   }
  }
-@media only screen and (min-width: 357px) and (max-width: 530px) {
+@media only screen and (min-width: 357px) and (max-width: 767px) {
+  .Rectangle{
+   .navbar-header{
+     padding-left:9%;
+   }
+  }
+
 .content1{
   .text{
    padding-top: 60px;
    padding-left: 10%;
    .p1{
     line-height: 2;
-    font-size: 11px;
+    font-size: 17px;
   }
   .p2{
       font-size: 40px;
